@@ -12,7 +12,7 @@ void init(void) {
 
 float setRandColors(){
 	glColor3f( (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX, (float)rand() / (float)RAND_MAX);
-
+	return 0;
 }
 
 void solution(void) {
